@@ -1,27 +1,15 @@
-# Virtual environment
-.venv/
-venv/
+# Dataset files
+data/
+
+# Generated artifacts
+artifacts/
 
 # Python cache
 __pycache__/
 *.pyc
-*.pyo
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Dataset
-data/
+# Virtual environment
+.venv/
 
 # Logs
 logs/
-*.log
-
-# Model artifacts
-artifacts/*.pkl
-
-# Environment variables
-.env
-
-# Ruff cache
-.ruff_cache/
